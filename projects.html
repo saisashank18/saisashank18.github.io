@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style2.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body style="text-align: justify">
+
+<!-- Navbar -->
+<!--
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  </div>
+-->
+
+  <!-- Navbar on small screens -->
+<!--
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+-->
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">My Projects and Achievements</h1>
+  
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+   <div class="w3-third w3-center" style="font-size: 300px">
+      <i class="fa fa-mobile w3-padding-32"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h2>Tuta Screen</h2>
+      <h4 class="w3-padding-32">Developed an website "Tuta Screen" which follows an online phone repair booking system, which is then developed into a mobile application which is compatible for both Android and IOS. <br>
+      Technologies used: Ionic Framework, Angular JS, HTML, CSS.</h4>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" style="background-color:#e9f2f9">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h2>Crime Data Analysis</h2>
+      <h4 class="w3-padding-32">Developed a model that predicts crime using machine learning algorithms like Randome forest, Decision tree and Linear Regression.<br>
+      Technologies used: Python 3.7, Google colab.</h4>
+
+    </div>
+
+    <div class="w3-third w3-center" style="font-size: 150px">
+      <i class="fa fa-database w3-padding-64"></i>
+    </div>
+  </div>
+  
+</div>
+<!--Third Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+   <div class="w3-third w3-center" style="font-size: 200px">
+      <i class="fa fa-file-text-o w3-padding-64"></i>
+    </div>
+    <div class="w3-twothird">
+      <h2>Publications</h2>
+      <h4 class="w3-padding-32">
+          <ul>
+              <li>K V Sai Sashank, Vaddemani Sai Madhav and G.Shriphad Rao
+(2020). “Crime Data Analysis Using Machine Learning Models”.
+In: International Journal of Advanced Science and Technology 29 (9),
+pp. 3260–3268.</li>
+         <li>K V Sai Sashank, Manideep Jammigumpula and H.Jagadish Kumar (2019). “Voice Controlled Car using Aurduino and Bluetooth
+Module”. In: International Journal of Engineering and Advanced
+Technology 9 (2), pp. 1062–1065.</li>
+          </ul>
+      </h4>
+
+    </div>
+  </div>
+</div>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

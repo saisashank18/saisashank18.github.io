@@ -1,0 +1,27 @@
+.my-fancy-container {
+    /*  border: 1px solid #ccc;*/
+    /*  border-radius: 6px;*/
+      display: inline-block;
+      margin: 6px;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .my-text {
+      display: block;
+      font-family: "Courier-new";
+    }
+    
+    .my-icon {
+        vertical-align: middle;
+        font-size: 40px;
+    }
+    
+    .arrow-down {
+        width: 0; 
+        height: 0; 
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid black;
+        margin: 0 auto;
+    }
